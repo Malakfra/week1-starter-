@@ -10,7 +10,16 @@ print("DAY 3 ORDERS"); print(orders)
 
 # Check 1: replace the next comment with a missing-values check on customers.
 # TODO
+print("check 1")
+
+print(customers.isna().sum())
 # Check 2: replace the next comment with a duplicate-rows check on customers.
 # TODO
+print("check 2")
+
+print(customers.duplicated().sum())
 # Check 3: replace the next comment to inspect the column types of orders.
 # TODO
+print("check 3")
+
+print(orders.dtypes)
